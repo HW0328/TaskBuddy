@@ -1,0 +1,40 @@
+body {
+  margin : 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+  overflow-x: hidden
+}
+
+.Navbar {
+  width : 100%;
+  display: flex;
+  padding : 20px;
+  color : white;
+  text-align: left;
+  background: rgb(80, 80, 80);
+  justify-content: space-between; 
+}
+ 
+
+.Navspan {
+  margin-left: 15px;
+}
+
+.nav_tab {
+  align-items: left;
+}
+
+.NavspanLogin {
+  margin-right: 15px;
+}
+
+.user_tab {
+  padding-right : 70px;
+  align-items: right;
+}
+
+
+.is_hidden {
+  opacity: 0;
+}
